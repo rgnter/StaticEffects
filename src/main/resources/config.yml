@@ -1,0 +1,25 @@
+# Kits
+groups:
+  # KitName
+  group1:
+    # Effects
+    display-name: 'EffectGroup of Kitty'
+    aliases: [kit0]
+    uuid: 123e4567-e89b-12d3-a456-556642440000
+    effects:
+      # Effect called speed with effect speed
+      speed-effect:
+        effect: speed
+        amplifier: 0
+        particles: true
+        ambient: true
+
+
+messages:
+  group-not-found: "&7Group with specified name/alias does not exists!"
+  group-set: "§aSucces i guess..."
+  player-not-found: "§cPlayer not found!"
+  not-an-entity: "&cYou need to be player to execute this command!"
+data:
+  use-database: true
+  webserver-url: 'http://144.76.116.252/api/data_handler.php'

@@ -1,0 +1,15 @@
+name: StaticEffects
+version: 4.0-Beta
+description: 'Im not that creative'
+main: me.MrWener.StaticEffects.plugin.PluginLoader
+commands:
+  staticeffects:
+    usage: </command>
+    aliases: [ses, se, statice, staticeff, seff]
+  staticeffectsadmin:
+    usage: </command>
+    aliases: [sesa, sea, staticea, staticeffa, seffa]
+  seainfo: {}
+permissions:
+  staticeffects.admin:
+    default: OP
